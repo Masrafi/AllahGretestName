@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c6b6b6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="আসসালামু আলাইকুম"
+            android:textSize="25dp"
+            android:textStyle="bold|italic"
+            android:background="#3c4938"
+            android:textColor="#f50612"
+            android:layout_marginLeft="55dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" রাসুলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম হাদিসে ইরশাদ করেন :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="7dp"
+            android:textColor="#761414"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="আল্লাহ তাআলার ৯৯টি গুণবাচক নাম রয়েছে; যে ব্যক্তি আল্লাহ তাআলার এ গুণবাচক নামের জিকির করবে, সে জান্নাতে যাবে।"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:textColor="#0e0000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="আল- কুরআনের সূরা আরাফের ১৮০ নং আয়াতে বলা হয়েছে :"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:textColor="#761414"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="আর আল্লাহর জন্য রয়েছে সব উত্তম নাম। কাজেই সে নাম ধরেই তাঁকে ডাক। আর তাদেরকে বর্জন কর, যারা তাঁর নামের ব্যাপারে বাঁকা পথে চলে। তারা নিজেদের কৃতকর্মের ফল শিগগিরই পাবে।"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:textColor="#0e0000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="উত্তম নাম বলতে সে সকল নামকে বোঝানো হয়েছে, যা গুণ-বৈশিষ্ট্যের পরিপূর্ণতায় সর্বোচ্চ স্তরকে চিহ্নিত করে। তার গুণবাচক নামকে বলা হয়, আসমাউল হুসনা।"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:textColor="#761414"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কুরআনে প্রাপ্ত আল্লাহ'র ৯৯টি নামের অর্থ সহো পড়তে এখানে ক্লিক করুন-"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="7dp"
+            android:textColor="#09502b"
+            />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="Click Me"
+            android:textStyle="italic"
+            android:textColor="#40133c"
+            android:textSize="35dp"
+            android:background="#6991ab"
+            android:onClick="buttonClick"
+            />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

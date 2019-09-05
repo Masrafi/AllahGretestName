@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#dfcece"
+    tools:context=".Activity2">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১.	الله	আল্লাহ= আল্লাহ"
+            android:onClick="changeColor"
+            />
+        <TextView
+            android:id="@+id/textView2"
+            android:onClick="changeColor1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+
+            android:text="২.	الرحمن	আর রাহমান= পরম দয়ালু" />
+        <TextView
+            android:id="@+id/textView3"
+            android:onClick="changeColor3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+
+            android:text="৩.	الرحيم	আর-রহী'ম= অতিশয়-মেহেরবান" />
+        <TextView
+            android:id="@+id/textView4"
+            android:onClick="changeColor4"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+
+            android:text=" ৪.	الملك	আল-মালিক= সর্বকর্তৃত্বময়" />
+        <TextView
+            android:id="@+id/textView5"
+            android:onClick="changeColor5"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+
+            android:text="৫.	القدوس	আল-কুদ্দুস= নিষ্কলুষ, অতি পবিত্র" />
+        <TextView
+            android:id="@+id/textView6"
+            android:onClick="changeColor6"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+
+            android:text="৬.	السلام	আস-সালাম= নিরাপত্তা-দানকারী, শান্তি-দানকারী" />
+        <TextView
+            android:id="@+id/textView7"
+            android:onClick="changeColor7"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+
+            android:text="৭.	المؤمن	আল-মু'মিন= নিরাপত্তা ও ঈমান দানকারী" />
+        <TextView
+            android:id="@+id/textView8"
+            android:onClick="changeColor8"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:text="৮.	المهيمن	আল-মুহাইমিন= পরিপূর্ন রক্ষণাবেক্ষণকারী" />
+        <TextView
+            android:id="@+id/textView9"
+            android:onClick="changeColor9"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="৯	العزيز	আল-আ'জীজ=	পরাক্রমশালী, অপরাজেয়" />
+        <TextView
+            android:id="@+id/textView10"
+            android:onClick="changeColor10"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১০	الجبار	আল-জাব্বার=	দুর্নিবার" />
+        <TextView
+            android:id="@+id/textView11"
+            android:onClick="changeColor11"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১১	المتكبر	আল-মুতাকাব্বিইর=	নিরঙ্কুশ শ্রেষ্ঠত্বের অধিকারী" />
+        <TextView
+            android:id="@+id/textView12"
+            android:onClick="changeColor12"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১২	الخالق	আল-খালিক্ব=	সৃষ্টিকর্তা" />
+        <TextView
+            android:id="@+id/textView13"
+            android:onClick="changeColor13"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১৩	البارئ	আল-বারী	সঠিকভাবে= সৃষ্টিকারী" />
+        <TextView
+            android:id="@+id/textView14"
+            android:onClick="changeColor14"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১৪	المصور	আল-মুছউইর=	আকৃতি-দানকারী" />
+        <TextView
+            android:id="@+id/textView15"
+            android:onClick="changeColor15"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text=" ১৫	الغفار	আল-গফ্ফার=	পরম ক্ষমাশীল" />
+        <TextView
+            android:id="@+id/textView16"
+            android:onClick="changeColor16"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১৬	القهار	আল-ক্বাহার=	কঠোর" />
+        <TextView
+            android:id="@+id/textView17"
+            android:onClick="changeColor17"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১৭	الوهاب	আল-ওয়াহ্হাব=	সবকিছু দানকারী" />
+        <TextView
+            android:id="@+id/textView18"
+            android:onClick="changeColor18"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১৮	الرزاق	আর-রজ্জাক্ব=	রিযকদাতা" />
+        <TextView
+            android:id="@+id/textView19"
+            android:onClick="changeColor19"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="১৯	الفتاح	আল ফাত্তাহ=	বিজয়দানকারী" />
+        <TextView
+            android:id="@+id/textView20"
+            android:onClick="changeColor20"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="২০	العليم	আল-আ'লীম=	সর্বজ্ঞ" />
+        <TextView
+            android:id="@+id/textView21"
+            android:onClick="changeColor21"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text=" ২১	القابض	আল-ক্ববিদ্ব'=	সংকীর্ণকারী" />
+        <TextView
+            android:id="@+id/textView22"
+            android:onClick="changeColor22"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#413636"
+            android:layout_marginLeft="5dp"
+            android:text="২২	الباسط	আল-বাসিত=	প্রশস্তকারী" />
+    <TextView
+        android:id="@+id/textView23"
+        android:onClick="changeColor23"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="23.	الخافض	আল-খফিদ্বু=	অবনতকারী" />
+    <TextView
+        android:id="@+id/textView24"
+        android:onClick="changeColor24"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="২৪.	الرافع	আর-রফীই'=	উন্নতকারী" />
+    <TextView
+        android:id="@+id/textView25"
+        android:onClick="changeColor25"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="২৫.	المعز	আল-মুই'জ্ব=	সম্মান-দানকারী" />
+    <TextView
+        android:id="@+id/textView26"
+        android:onClick="changeColor26"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="২৬.	المذل	আল-মুদ্বি'ল্লু	= (অবিশ্বাসীদের) বেইজ্জতকারী" />
+    <TextView
+        android:id="@+id/textView27"
+        android:onClick="changeColor27"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="২৬.	المذل	আল-মুদ্বি'ল্লু	= (অবিশ্বাসীদের) বেইজ্জতকারী" />
+    <TextView
+        android:id="@+id/textView28"
+        android:onClick="changeColor28"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="২৮.	البصير	আল-বাছীর=	সর্ববিষয়-দর্শনকারী" />
+    <TextView
+        android:id="@+id/textView29"
+        android:onClick="changeColor29"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="২৯.	الحكم	আল-হা'কাম=	অটল বিচারক" />
+    <TextView
+        android:id="@+id/textView30"
+        android:onClick="changeColor30"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩০.	العدل	আল-আ'দল=	পরিপূর্ণ-ন্যায়বিচারক" />
+    <TextView
+        android:id="@+id/textView31"
+        android:onClick="changeColor31"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩১.	اللطيف	আল-লাতীফ=	সকল-গোপন-বিষয়ে-অবগত" />
+    <TextView
+        android:id="@+id/textView32"
+        android:onClick="changeColor32"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩২.	الخبير	আল-খ'বীর=	সকল ব্যাপারে জ্ঞাত" />
+    android:text="৩১.	اللطيف	আল-লাতীফ=	সকল-গোপন-বিষয়ে-অবগত" />
+    <TextView
+        android:id="@+id/textView33"
+        android:onClick="changeColor33"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩৩.	الحليم	আল-হা'লীম=	অত্যন্ত ধৈর্যশীল" />
+    <TextView
+        android:id="@+id/textView34"
+        android:onClick="changeColor34"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩৪.	العظيم	আল-আ'জীম=	সর্বোচ্চ-মর্যাদাশীল" />
+    <TextView
+        android:id="@+id/textView35"
+        android:onClick="changeColor35"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩৫.	الغفور	আল-গফুর	পরম= ক্ষমাশীল" />
+    <TextView
+        android:id="@+id/textView36"
+        android:onClick="changeColor333"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩৬.	الشكور	আশ্-শাকুর=	গুনগ্রাহী"
+        tools:ignore="OnClick" />
+    <TextView
+        android:id="@+id/textView37"
+        android:onClick="changeColor37"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text=" ৩৭.	العلي	আল-আ'লিইউ=	উচ্চ-মর্যাদাশীল" />
+    <TextView
+        android:id="@+id/textView38"
+        android:onClick="changeColor38"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩৮.	الكبير	আল-কাবিইর=	সুমহান" />
+    <TextView
+        android:id="@+id/textView39"
+        android:onClick="changeColor39"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৩৯.	الحفيظ	আল-হা'ফীজ=	সংরক্ষণকারী" />
+    <TextView
+        android:id="@+id/textView40"
+        android:onClick="changeColor40"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪০.	المقيت	আল-মুক্বীত=	সকলের জীবনোপকরণ-দানকারী" />
+    <TextView
+        android:id="@+id/textView41"
+        android:onClick="changeColor41"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪১.	الحسيب	আল-হাসীব=	হিসাব-গ্রহণকারী" />
+    <TextView
+        android:id="@+id/textView42"
+        android:onClick="changeColor42"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪২.	الجليل	আল-জালীল=	পরম মর্যাদার অধিকারী" />
+    <TextView
+        android:id="@+id/textView43"
+        android:onClick="changeColor43"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪৩.	الكريم	আল-কারীম=	সুমহান দাতা" />
+    <TextView
+        android:id="@+id/textView44"
+        android:onClick="changeColor44"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪৪.	الرقيب	আর-রক্বীব=	তত্ত্বাবধায়ক" />
+    <TextView
+        android:id="@+id/textView45"
+        android:onClick="changeColor45"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪৫.	المجيب	আল-মুজীব=	জবাব-দানকারী, কবুলকারী" />
+    <TextView
+        android:id="@+id/textView46"
+        android:onClick="changeColor46"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪৬.	الواسع	আল-ওয়াসি'=	সর্ব-ব্যাপী, সর্বত্র-বিরাজমান" />
+    <TextView
+        android:id="@+id/textView47"
+        android:onClick="changeColor47"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪৭.	الحكيم	আল-হাকীম=	পরম-প্রজ্ঞাময়" />
+    <TextView
+        android:id="@+id/textView48"
+        android:onClick="changeColor48"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪৮.	الودود	আল-ওয়াদুদ=	(বান্দাদের প্রতি) সদয়" />
+    <TextView
+        android:id="@+id/textView49"
+        android:onClick="changeColor49"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৪৯.	المجيد	আল-মাজীদ=	সকল-মর্যাদার-অধিকারী" />
+    <TextView
+        android:id="@+id/textView50"
+        android:onClick="changeColor50"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫০.	الباعث	আল-বাই'ছ'=	পুনুরুজ্জীবিতকারী" />
+    <TextView
+        android:id="@+id/textView51"
+        android:onClick="changeColor51"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫১.	الشهيد	আশ্-শাহীদ=	সর্বজ্ঞ-স্বাক্ষী" />
+    <TextView
+        android:id="@+id/textView52"
+        android:onClick="changeColor52"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫২.	الحق	আল-হা'ক্ব=	পরম সত্য" />
+    <TextView
+        android:id="@+id/textView53"
+        android:onClick="changeColor53"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫৩.	الوكيل	আল-ওয়াকিল= 	পরম নির্ভরযোগ্য কর্ম-সম্পাদনকারী" />
+    <TextView
+        android:id="@+id/textView54"
+        android:onClick="changeColor54"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫৪.	القوي	আল-ক্বউইউ= 	পরম-শক্তির-অধিকারী" />
+    <TextView
+        android:id="@+id/textView55"
+        android:onClick="changeColor55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫৫.	المتين	আল-মাতীন=	সুদৃঢ়" />
+    <TextView
+        android:id="@+id/textView56"
+        android:onClick="changeColor56"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫৬.	الولي	আল-ওয়ালিইউ	=  অভিভাবক ও সাহায্যকারী" />
+    <TextView
+        android:id="@+id/textView57"
+        android:onClick="changeColor57"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫৭.	الحميد	আল-হা'মীদ=	সকল প্রশংসার অধিকারী" />
+    <TextView
+        android:id="@+id/textView58"
+        android:onClick="changeColor58"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫৮.	المحصي	আল-মুহছী=	সকল সৃষ্টির ব্যপারে অবগত" />
+    <TextView
+        android:id="@+id/textView59"
+        android:onClick="changeColor59"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৫৯.	المبدئ	আল-মুব্দি'=	প্রথমবার-সৃষ্টিকর্তা" />
+    <TextView
+        android:id="@+id/textView60"
+        android:onClick="changeColor60"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬০.	المعيد	আল-মুঈ'দ=	পুনরায়-সৃষ্টিকর্তা" />
+    <TextView
+        android:id="@+id/textView61"
+        android:onClick="changeColor61"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬১.	المحيي	আল-মুহ'য়ী=	জীবন-দানকারী" />
+    <TextView
+        android:id="@+id/textView62"
+        android:onClick="changeColor62"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬২.	المميت	আল-মুমীত=	মৃত্যু-দানকারী"
+        tools:ignore="OnClick" />
+    <TextView
+        android:id="@+id/textView63"
+        android:onClick="changeColor63"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬৩.	الحي	আল-হাইয়্যু=	চিরঞ্জীব" />
+    <TextView
+        android:id="@+id/textView64"
+        android:onClick="changeColor64"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬৪.	القيوم	আল-ক্বাইয়্যুম	সমস্তকিছুর=  ধারক ও সংরক্ষণকারী" />
+    <TextView
+        android:id="@+id/textView65"
+        android:onClick="changeColor65"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬৫.	الواجد	আল-ওয়াজিদ= 	অফুরন্ত ভান্ডারের অধিকারী" />
+    <TextView
+        android:id="@+id/textView66"
+        android:onClick="changeColor66"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬৬.	الماجد	আল-মাজিদ=	শ্রেষ্ঠত্বের অধিকারী" />
+    <TextView
+        android:id="@+id/textView67"
+        android:onClick="changeColor67"
+
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="20dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#413636"
+    android:layout_marginLeft="5dp"
+    android:text="৬৭.	الواحد	আল-ওয়াহি'দ=	এক ও অদ্বিতীয়	" />
+    <TextView
+        android:id="@+id/textView68"
+        android:onClick="changeColor68"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬৮.	الصمد	আছ্-ছমাদ=	অমুখাপেক্ষী" />
+    <TextView
+        android:id="@+id/textView69"
+        android:onClick="changeColor69"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৬৯.	القادر	আল-ক্বদির= 	সর্বশক্তিমান" />
+    <TextView
+        android:id="@+id/textView70"
+        android:onClick="changeColor70"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭০.	المقتدر	আল-মুক্ব্তাদির=	নিরঙ্কুশ-সিদ্বান্তের-অধিকারী" />
+    <TextView
+        android:id="@+id/textView71"
+        android:onClick="changeColor71"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭১.	المقدم	আল-মুক্বদ্দিম	=  অগ্রসারক" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:onClick="changeColor72"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭২.	المؤخر	আল-মুয়াক্খির=	অবকাশ দানকারী" />
+    <TextView
+        android:id="@+id/textView73"
+        android:onClick="changeColor73"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭৩.	الأول	আল-আউয়াল= 	অনাদি" />
+    <TextView
+        android:id="@+id/textView74"
+        android:onClick="changeColor74"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭৪.	الأخر	আল-আখির=	অনন্ত, সর্বশেষ" />
+    <TextView
+        android:id="@+id/textView75"
+        android:onClick="changeColor75"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭৫.	الظاهر	আজ-জ'হির= 	সম্পূর্নরূপে-প্রকাশিত" />
+    <TextView
+        android:id="@+id/textView76"
+        android:onClick="changeColor76"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭৬.	الباطن	আল-বাত্বিন= 	দৃষ্টি হতে অদৃশ্য" />
+    <TextView
+        android:id="@+id/textView77"
+        android:onClick="changeColor77"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭৭.	الوالي	আল-ওয়ালি=	সমস্ত-কিছুর-অনিভাব্ক" />
+    <TextView
+        android:id="@+id/textView78"
+        android:onClick="changeColor78"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৭৮.	المتعالي	আল-মুতাআ'লি	সৃষ্টির=  গুনাবলীর উর্দ্ধে" />
+    <TextView
+        android:id="@+id/textView79"
+        android:onClick="changeColor79"
+
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="20dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#413636"
+    android:layout_marginLeft="5dp"
+    android:text="৭১.	ا৭৯	البر	আল-বার্=	পরম-উপকারী, অণুগ্রহশীল৭৯" />
+    <TextView
+        android:id="@+id/textView80"
+        android:onClick="changeColor80"
+
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="20dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#413636"
+    android:layout_marginLeft="5dp"
+    android:text="৮০.	التواب	আত্-তাওয়াব= 	তাওবার তাওফিক দানকারী এবং কবুলকারী" />
+    <TextView
+        android:id="@+id/textView81"
+        android:onClick="changeColor81"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৮১.	المنتقم	আল-মুনতাক্বিম=	প্রতিশোধ-গ্রহণকারী" />
+    <TextView
+        android:id="@+id/textView82"
+        android:onClick="changeColor82"
+
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="20dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#413636"
+    android:layout_marginLeft="5dp"
+    android:text="৮২.	العفو	আল-আ'ফঊ= 	পরম-উদার" />
+    <TextView
+        android:id="@+id/textView83"
+        android:onClick="changeColor83"
+
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="20dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#413636"
+    android:layout_marginLeft="5dp"
+    android:text="৭১.	المقدم	আল-মুক্বদ্দিম	=  অগ্রসারক" />
+    <TextView
+        android:id="@+id/textView84"
+        android:onClick="changeColor84"
+
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="20dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#413636"
+    android:layout_marginLeft="5dp"
+    android:text="৮৩.	الرؤوف	আর-রউফ	=  পরম-স্নেহশীল" />
+    <TextView
+        android:id="@+id/textView85"
+        android:onClick="changeColor85"
+
+        android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:textSize="20dp"
+    android:layout_marginTop="5dp"
+    android:textColor="#413636"
+    android:layout_marginLeft="5dp"
+    android:text="৮৪.	مالك الملك	মালিকুল-মুলক=	সমগ্র জগতের বাদশাহ্" />
+    <TextView
+        android:id="@+id/textView86"
+        android:onClick="changeColor86"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৮৫.	ذو الجلال والإكرام	যুল-জালালি-ওয়াল-ইকরাম=	মহিমান্বিত ও দয়াবান সত্তা" />
+    <TextView
+        android:id="@+id/textView87"
+        android:onClick="changeColor87"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৮৬.	المقسط	আল-মুক্ব্সিত= 	হকদারের হক-আদায়কারী" />
+    <TextView
+        android:id="@+id/textView88"
+        android:onClick="changeColor88"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৮৭.	الجامع	আল-জামিই'=	একত্রকারী, সমবেতকারী" />
+    <TextView
+        android:id="@+id/textView89"
+        android:onClick="changeColor89"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৮৮.	الغني	আল-গণিই'=	অমুখাপেক্ষী ধনী" />
+    <TextView
+        android:id="@+id/textView90"
+        android:onClick="changeColor90"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৮৯.	المغني	আল-মুগণিই'= 	পরম-অভাবমোচনকারী" />
+    <TextView
+        android:id="@+id/textView91"
+        android:onClick="changeColor91"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯০.	المانع	আল-মানিই'= 	অকল্যানরোধক" />
+    <TextView
+        android:id="@+id/textView92"
+        android:onClick="changeColor92"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯১.	الضار	আয্-যর= 	ক্ষতিসাধনকারী" />
+    <TextView
+        android:id="@+id/textView93"
+        android:onClick="changeColor93"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯২.	النافع	আন্-নাফিই'=  	কল্যাণকারী" />
+    <TextView
+        android:id="@+id/textView94"
+        android:onClick="changeColor94"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯৩.	النور	আন্-নূর= 	পরম-আলো" />
+    <TextView
+        android:id="@+id/textView95"
+        android:onClick="changeColor95"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯৪.	الهادي	আল-হাদী= 	পথ-প্রদর্শক" />
+    <TextView
+        android:id="@+id/textView96"
+        android:onClick="changeColor96"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯৫.	البديع	আল-বাদীই'=  	অতুলনীয়" />
+    <TextView
+        android:id="@+id/textView97"
+        android:onClick="changeColor97"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯৬.	الباقي	আল-বাক্বী=  	চিরস্থায়ী, অবিনশ্বর" />
+    <TextView
+        android:id="@+id/textView98"
+        android:onClick="changeColor98"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯৭.	الوارث	আল-ওয়ারিস'= 	উত্তরাধিকারী" />
+    <TextView
+        android:id="@+id/textView99"
+        android:onClick="changeColor99"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯৮.	الرشيد	আর-রাশীদ=	সঠিক পথ-প্রদর্শক" />
+    <TextView
+        android:id="@+id/textView100"
+        android:onClick="changeColor100"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="5dp"
+        android:text="৯৯.	الصبور	আস-সবুর	অত্যধিক=   ধৈর্যধারণকারী" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="40dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#413636"
+        android:layout_marginLeft="120dp"
+        android:text="ধন্যবাদ "
+
+        />
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>
